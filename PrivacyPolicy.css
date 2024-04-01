@@ -1,0 +1,107 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Wrapper Styles */
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Header Styles */
+.site-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.company-name {
+    color: #e63946; /* Adjust this color to match Ronraj Tech branding */
+}
+
+/* Main Content Styles */
+.content {
+    padding: 20px;
+}
+
+.title {
+    background-color: #e63946; /* Adjust this color to match Ronraj Tech branding */
+    color: #fff;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+}
+
+.policy-section, .info-collection, .eu-consent, .privacy-policy, .use-info, .info-disclosed, .third-party-sites, .share-info, .SECURITY, .sensitive-info, .changes-privacy-policy, .last-info {
+    margin-bottom: 20px;
+}
+
+.emphasis {
+    font-weight: bold;
+    color: #e63946; /* Adjust this color to match Ronraj Tech branding */
+}
+
+h3 {
+    border-bottom: 1px solid #e63946; /* Adjust this color to match Ronraj Tech branding */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #e63946; /* Adjust this color to match Ronraj Tech branding */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.bullet-point {
+    position: relative;
+    padding-left: 20px; /* This creates space for the bullet */
+}
+
+.bullet-point:before {
+    content: '•'; /* Unicode character for bullet point */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 10px;
+    }
+
+    .title, .company-name {
+        font-size: 1.5em;
+    }
+}
